@@ -5,12 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Dad Joke Paste",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "dad_joke_paste.py",
+            "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Pokemon Paste",
+            "type": "python",
+            "request": "launch",
+            "program": "pokemon_paste.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["cubone"]
         }
     ]
 }
